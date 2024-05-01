@@ -3,6 +3,20 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+venvcython
+./ex1_compile_cython/build
+ex1_compile_cython/fib.c
+./ex3_staticlib/build
+ex3_staticlib/fib.c
+ex3_staticlib/staticlib/cfib.o
+ex3_staticlib/staticlib/main.o
+ex3_staticlib/staticlib/libcfib.a
+./ex4_pxd_multifile/build
+ex4_pxd_multifile/cython_relative_demo/*.c
+./ex5_pyinstaller/__pycache__
+./ex5_pyinstaller/build
+./ex5_pyinstaller/dist
+
 # C extensions
 *.so
 
